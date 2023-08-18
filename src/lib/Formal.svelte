@@ -9,7 +9,7 @@
   let selectedImage = null;
 
   function getRandomImage() {
-    return `src/images/${Math.floor(Math.random() * 100) + 1}.jpg`;
+    return `./${Math.floor(Math.random() * 100) + 1}.jpg`;
   }
 
   function showNextImages() {

@@ -49,17 +49,17 @@
     <h3 style = "color:black;">Please select the image that you perceive to have higher visual complexity. </h3>
     </div>
       {#if showFirstGroup}
-      <img src="/src/lib/images-test/1.jpg" alt="Image 1" 
+      <img src="./1.jpg" alt="Image 1" 
          on:click={handleImageClick} 
          class:selected={selectedImage === 'Image 1'}>
-      <img src="/src/lib/images-test/2.jpg" alt="Image 2" 
+      <img src="./2.jpg" alt="Image 2" 
          on:click={handleImageClick} 
          class:selected={selectedImage === 'Image 2'}>
       {:else}
-      <img src="/src/lib/images-test/3.jpg" alt="Image 3" 
+      <img src="./3.jpg" alt="Image 3" 
          on:click={handleImageClick} 
          class:selected={selectedImage === 'Image 3'}>
-      <img src="/src/lib/images-test/4.jpg" alt="Image 4" 
+      <img src="./4.jpg" alt="Image 4" 
          on:click={handleImageClick} 
          class:selected={selectedImage === 'Image 4'}>
       {/if}
